@@ -3,7 +3,7 @@ import React from 'react'
 
 const Todo = ({ todo, index, markTodo, deleteTodo }) => {
     return (
-        <div className="col-4">
+        <div className="col-lg-4 col-md-6">
             <div className="card-header">
                 <h4>Todo: {index + 1}</h4>
             </div>
