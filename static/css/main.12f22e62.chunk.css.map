@@ -1,1 +1,0 @@
-{"version":3,"sources":["webpack://src/App.css"],"names":[],"mappings":"AAAA,UACI,4BACJ,CAEA,YACI,oBACJ","file":"main.12f22e62.chunk.css","sourcesContent":[".complete {\r\n    text-decoration: line-through;\r\n}\r\n\r\n.incomplete {\r\n    text-decoration: none;\r\n}\r\n\r\n\r\n"]}
