@@ -19,16 +19,23 @@ class NewTodo extends Component {
         return (
             <div className="container">
                 <div className="row m-5">
-                    <div className="col-8 offset-2">
-                        <div className="input-group">
-                            <input type="text" className="form-control col-lg-12 col-md-6" placeholder="new message" onChange={this.setNewMessage} value={this.state.msg} />
-                            <div className="input-group-append col-lg-4 col-sm-6">
-                                <button onClick={this.addTodo} className="btn btn-primary col-lg-6 col-md-4">Add</button>
-                            </div>
-                        </div>
+                    <div className="col-12">
+                        <input type="text" className="form-control msg-input" placeholder="new message" onChange={this.setNewMessage} value={this.state.msg} />
+                        <button onClick={this.addTodo} className="btn btn-primary add-button">Add</button>
                     </div>
                 </div>
-            </div >
+            </div>
+            /** 
+             * <div class="container">
+                <div class="row m-5">
+                    <div class="col-12">
+                        <input type="text" class="form-control" placeholder="new message" value="" style="width: 100%;">
+                        <button class="btn btn-primary add-button" style="
+            width: 100%;">Add</button>
+                    </div>
+                </div>
+            </div>
+             */
         )
     }
 }
